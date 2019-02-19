@@ -5,7 +5,8 @@ result = yandex_translate("en", "hi", "Hello, world! Welcome to India")
 
 print(result)
 
-result2 = g_ajax_translate("en", "hi", "Hi! How are you ?")
+#using shravan for test!! :p
+result2 = g_ajax_translate("en", "hi", "Hi Shravan! How are you ?")
 
 print(result2)
 
