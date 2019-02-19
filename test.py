@@ -5,7 +5,9 @@ result = yandex_translate("en", "hi", "Hello, world! Welcome to India")
 
 print(result)
 
-result = g_ajax_translate("en", "hi", "Hi, Shravan! How are you ?")
+result2 = g_ajax_translate("en", "hi", "Hi! How are you ?")
 
-send_sms(None, ['9108287991'], result, useDefault = True)
+print(result2)
+
+send_sms(None, ['9611818690'], result, useDefault = True)
 
