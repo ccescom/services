@@ -1,1 +1,1 @@
-from main import send_voice_call as make_call
+from .main import send_voice_call as make_call

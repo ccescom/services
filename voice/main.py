@@ -53,7 +53,7 @@ class Voice(Thread):
         print(nexmo_response)
 
 
-def send_voice_call(creds_file, text, lang, to) :
+def send_voice_call(creds_file, text , lang, to) :
 
     creds = json.load(open(creds_file, 'r'))
 
@@ -64,3 +64,6 @@ def send_voice_call(creds_file, text, lang, to) :
         caller.run()
 
 
+
+
+#send_voice_call('../creds.json', 'यह एक बहुत लंबा संदेश है जिसे मैं यह सुनिश्चित करने के लिए परीक्षण कर रहा हूं कि वार्तालाप स्ट्रीमिंग सही काम कर रही है जैसा कि मैंने सोचा था कि यह काम करेगा, यदि नहीं तो मुझे यह सुनिश्चित करना चाहिए कि यह काम करता है', lang = 'hi-IN', to = ['919611818690'])Se
