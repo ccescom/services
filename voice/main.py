@@ -61,7 +61,7 @@ def send_voice_call(creds_file, text , lang, to) :
 
         caller = Voice(data = creds, text = text, lang = lang, number = number)
 
-        caller.run()
+        caller.start()
 
 
 
